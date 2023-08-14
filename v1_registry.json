@@ -1,4 +1,10 @@
 {
-  version: 1.0
-  extensions:[]
+  "version": 1.0,
+  "extensions":[
+    {
+      "hash": "",
+      "title": "",
+      "description": ""
+    }
+  ]
 }
