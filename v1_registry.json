@@ -2,9 +2,9 @@
   "version": 1.0,
   "extensions":[
     {
-      "hash": "",
-      "title": "",
-      "description": ""
+      "package": "org.blockless.lit-extension",
+      "title": "Lit Extension Protocol",
+      "description": "This is the Blockless Lit Extension Protocol"
     }
   ]
 }
