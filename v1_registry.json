@@ -3,8 +3,8 @@
   "extensions": [
     {
       "package": "org.blockless.lit-extension",
-      "title": "Lit Extension Protocol",
-      "description": "This is the Blockless Lit Extension Protocol",
+      "title": "Lit Protocol Extension",
+      "description": "This is the Blockless Lit Protocol Extension",
       "versions": [
         "1.0.0-pre.3"
       ],
