@@ -6,17 +6,13 @@
       "title": "Lit Extension Protocol",
       "description": "This is the Blockless Lit Extension Protocol",
       "versions": [
-        "0.1.0-pre"
+        "1.0.0-pre.3"
       ],
       "distributions": {
-        "0.1.0-pre": {
-          "x64": {
-            "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
-            "linux": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-linux-amd64.tar.gz",
-          },
-          "arm64": {
-            "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
-          }
+        "1.0.0-pre.3": {
+          "platform": ["linux", "macos","win"],
+          "arch": ["x64", "arm64"],
+          "uri":"https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/${version}/extension-lit-protocol-${platform}-${arch}.tar.gz"
         }
       }
     }
