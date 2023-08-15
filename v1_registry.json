@@ -1,17 +1,22 @@
 {
   "version": 1.0,
-  "extensions":[
+  "extensions": [
     {
       "package": "org.blockless.lit-extension",
       "title": "Lit Extension Protocol",
       "description": "This is the Blockless Lit Extension Protocol",
-      "distributions" : {
-        "x64": {
-          "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
-          "linux": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-linux-amd64.tar.gz",
-        },
-        "arm64": {
-          "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
+      "versions": [
+        "0.1.0-pre"
+      ],
+      "distributions": {
+        "0.1.0-pre": {
+          "x64": {
+            "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
+            "linux": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-linux-amd64.tar.gz",
+          },
+          "arm64": {
+            "darwin": "https://github.com/blocklessnetwork/extension-lit-protocol/releases/download/v0.1.0-pre/lit-protocol-darwin-amd64.tar.gz",
+          }
         }
       }
     }
